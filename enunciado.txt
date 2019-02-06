@@ -1,0 +1,81 @@
+/* DEFINICION DEL EJERCICIO BASICO POR PAREJAS
+   ESTA PARTE DEL EJERCICIO VA A IR GUIADA */
+/* RECORDATORIO: DEFINIR PRIMERO TODAS LAS CLASES.
+    AUNQUE SE PIDAN EN EJERCICIOS POSTERIORES
+ */
+
+/* DEFINIMOS LA CLASE */
+// Crea aqui una clase que se llame AnimalClass
+/* Crea un constructor con los parametros con valores por defecto:
+ especie->perro, patas->, gritito->, vuela-> false
+ */
+
+/* Crea un modificador de la propiedad vuela con nombres:
+getVuela
+setVuela
+*/
+
+/* Añade el metodo gritar
+   El metodo logeara en consola lo siguiente
+   El sonido de la especie "valor de especie" es "valor de gritito"
+*/
+
+/* Añade el metodo tipoAlimentación que tenga un parametro
+  El metodo logeara en consola lo siguiente
+  Este animal come: "valor del parametro"
+*/
+
+/* DEFINIMOS LAS FUNCIONES*/
+// Define la funcion crearAnimal que es la que retorna un nuevo animal.
+/* Esta funcion solo retornara un nuevo AnimalClass
+ */
+
+// Define la funcion nuevoAnimal la cual es llamada en el html por el boton
+/* Tiene que crear un nuevo animal. Pensar ¿Como creamos un nuevo animal?
+   Este nuevo animal va a ser carnivoro.
+   Este animal va a gritar.
+  Atencion: hay que pasar los parametros con los valores correctos
+  Atencion: fijarse bien que envia el html a la funcion y mirar si es lo que necesitamos
+
+ */
+
+
+
+
+/* DEFINICION DEL EJERCICIO AVANZADO POR PAREJAS
+   ESTA PARTE DEL EJERCICIO IRA MENOS GUIADA
+   SIMPLEMENTE SE DESCRIBE QUE SE PIDE Y LOS NOMBRES QUE USAR */
+/* RECORDATORIO: DEFINIR PRIMERO TODAS LAS CLASES.
+    AUNQUE SE PIDAN EN EJERCICIOS POSTERIORES
+ */
+
+/* DEFINIMOS LA CLASE */
+// Crea aqui una clase que se llame GatoClass Y herede de AnimalClass
+/* Debe de tener dos parametros color y peso
+ */
+
+/* El gato debe saber hacer: arañar, saltar, maullar
+  Arañar y saltar deben logear el siguiente texto respectivamete.
+  Soy capaz de arañar. Doy saltos infinitos
+  Maullar debe de hacer lo mismo que gritar.
+*/
+
+/* DEFINIMOS LAS FUNCIONES*/
+// Define la funcion crearGato que retorna un nuevo gato.
+
+// Define la funcion nuevoGato la cual es llamada en el html por el boton
+/* Tiene que crear un nuevo animal. Pensar ¿Como creamos un nuevo animal?
+   Aparte de crar un nuevo gato debera de hacer lo siguiente
+   Arañar
+   Maullar
+   Saltar
+   Alimentacion: Quiero comerme un lindo gatito
+   Debe de aprender a volar
+ */
+
+ // ¿Como aprende a volar un gato?
+ /* Si animal ya sabe volar logeara, y acabara ahi,: Ya puedo volar por mi mismo.
+    Debemos de poder modificar la capacidad de vuelo
+    Si despues de la modificacion puede volar hay que logear: Ahora puedo volar.
+    Por el contrario si todavia no puede volar: Todavia no puedo volar
+  */

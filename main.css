@@ -1,0 +1,8 @@
+body{
+    background-image: url(matematicas.jpg);
+}
+
+#div1{border: 1px solid black;
+    background-color:lightblue;
+    width:30%;
+}
